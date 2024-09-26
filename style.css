@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    animation-name: gradient;
+    animation: colorChange 5s ease-in-out infinite;
+}
+input{
+    height: 50px;
+    width:200px;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    /* justify-content: center; Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+}
+.h1{
+    font-family: Pacifico;
+    font-size: 50px;
+}
+.cbtn{
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    font-family: cursive;
+}
+.ip{
+    font-family: cursive;
+}
+
+.txt{
+    background-color: whitesmoke;
+    width: 80vh;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15vh;
+}
+.main{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /*Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+    padding-top: 25vh;
+}
+@keyframes colorChange {
+
+    /* 0% {
+        background: linear-gradient(to right, #a4daff, #e2a5ed);
+    }
+    25% {
+        background: linear-gradient(to right, #e6aeee,#a4daff);
+    }
+    50% {
+        background: linear-gradient(to right, #e2a5ed,#e6aeee);
+    }
+    75% {
+        background: linear-gradient(to right, #a4daff,#e2a5ed);
+    }
+    100% {
+        background: linear-gradient(to right, #e6aeee,#a4daff);
+    }  */
+
+    0% {
+        background: linear-gradient(to right, #a4daff, #e2a5ed); 
+    }
+    14% {
+        background: linear-gradient(to right, #e6aeee, #ffcccb); 
+    }
+    25% {
+        background: linear-gradient(to right, #ffcccb, #a4daff); 
+    }
+    39% {
+        background: linear-gradient(to right, #a4daff, #ffcccb); 
+    }
+    50% {
+        background: linear-gradient(to right, #ffcccb, #e6aeee); 
+    }
+    64% {
+        background: linear-gradient(to right, #a4daff, #e2a5ed); 
+    }
+    75% {
+        background: linear-gradient(to right, #e6aeee, #ffcccb); 
+    }
+    89% {
+        background: linear-gradient(to right, #ffcccb, #a4daff); 
+    }
+    100% {
+        background: linear-gradient(to right, #a4daff, #ffcccb); 
+    }
+}
